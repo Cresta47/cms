@@ -93,8 +93,13 @@ class PostController extends Controller
 //        return view('posture')->with('id',$id);
         return view('posture',compact('id','name','pass'));
     }
+    
+    
 
-    public function insert(){
-        
-    }
+    /**
+     *
+     */
+//    public function insert(){
+//        DB::insert('insert into test(title,body) value(?,?)',['PHP With Laravel','Try it bro .Its awesome.']);
+//    }
 }
